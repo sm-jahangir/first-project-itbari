@@ -1,0 +1,135 @@
+ *{
+ 	margin: 0;
+ 	padding: 0px;
+ }
+ body{
+ 	background-color: #EEE8AE;
+ }
+ #wrapper{
+ 	width: 960px;
+ 	margin: 20px auto;
+ }
+ #header{
+ 	background-color: #FAB72A;
+ 	padding: 15px;
+ 	border-bottom: 5px solid #6B710E;
+ }
+ #header h2{
+ 	font-family: arial;
+ 	color: #fff;
+ 	font-size: 25px;
+ }
+ #header p{
+ 	font-family: arial;
+ 	color: #8D9A29;
+ }
+ #nav{
+ 	background-color: #fff;
+ 	height: 38px;
+ 	border-bottom: 5px solid #6B710E;
+
+
+ }
+ #nav ul{
+ 	list-style-type: none;
+  z-index: 999;
+ }
+ #nav ul li{
+ 	float: left;
+ 	border-right: 1px solid red;
+  position: relative;
+ }
+ #nav ul li a{
+ 	text-decoration: none;
+ 	display: block;
+ 	padding: 10px 20px;
+  font-weight: bold;
+ }
+ #nav ul li:last-child{
+ 	border:none;
+ }
+ #nav ul li a:hover{
+ 	color: #DF0238;
+
+ }
+ #nav ul li ul{
+  position: absolute;
+  display: none;
+  background-color: #fff;
+  width: 150px;
+ }
+ #nav ul li ul li{
+  border-right: none;
+  border-bottom: 1px solid red;
+ }
+ #nav ul li ul li:first-child{
+  border-top: 1px solid red;
+ }
+ #nav ul li:hover ul{
+  display: block;
+ }
+ #main_content{
+ 	width: 960px;
+ 	background-color: #fff;
+ 	overflow: hidden;
+  color: #74710E;
+ }
+ #content{
+ 	width: 600px;
+ 	float: left;
+ 	padding: 10px;
+ }
+  #content h2{
+  	font-family: arial;
+  }
+  #content_single{
+    margin-bottom: 25px;
+    overflow: hidden;
+  }
+  #images img{
+    border: 5px solid #ddd;
+    width: 350px;
+    height: 250px;
+    display: block;
+    margin: 0 auto;
+  }
+  #images p{
+    padding: 20px 0px 20px 0px;
+    overflow: hidden;
+  }
+  #images figcaption{
+    background-color: #ddd;
+    text-align: center;
+    width: 346px;
+    margin-left: 120px;
+    padding: 7px;
+    font-weight: bold;
+  }
+ 
+ #sidebar{
+ 	width: 300px;
+ 	float: left;
+ 	padding: 20px;
+ }
+ #sidebar h2{
+ 	font-family: arial;
+ }
+ #sidebar ul{
+ 	list-style-type: circle;
+ }
+ #sidebar ul li a{
+ 	text-decoration: none;
+ }
+  #sidebar ul li a:hover{
+  	color: #FE5208;
+  }
+  #footer{
+  	font-family: arial;
+  	background-color: #635548;
+
+  }
+  #footer p{
+  	padding: 10px;
+  	color: #fff;
+  	text-align: center;
+  }
